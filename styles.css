@@ -1,0 +1,886 @@
+
+.mntn,
+.mntn * {
+  box-sizing: border-box;
+}
+.mntn {
+  background: var(--bg, #0B1D26);
+  height: 4600px;
+  position: relative;
+  box-shadow: var(--shadow-box-shadow, 0px 0px 100px 0px rgba(0, 0, 0, 0.2));
+  overflow: hidden;
+}
+.background {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  width: 1920px;
+  height: 958px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: cover;
+}
+.background,
+.background * {
+  box-sizing: border-box;
+}
+.background {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  height: 958px;
+  position: relative;
+  object-fit: cover;
+}
+
+
+
+.shadow-background {
+  background: linear-gradient(
+    -29.76deg,
+    rgba(11, 29, 38, 0) 0%,
+    #0B1D26 100%
+  
+  );
+  
+  
+  overflow: visible;
+  width: 100%; /* Ensure it covers full width */
+  height: 322px;
+  position: absolute; /* Position it over the background */
+  bottom: 0; /* Attach it to the bottom */
+  left: 0;
+  z-index: 1; /* Ensure it's above the background image */
+  mix-blend-mode: multiply;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1384px;
+  height: 161px;
+  position: absolute;
+  left: 528px;
+  top: 106px;
+  overflow: hidden;
+  
+}
+.group-17 {
+  flex-shrink: 0;
+  width: 505px;
+  height: 162px;
+  position: static;
+}
+.project-by {
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 18px;
+  letter-spacing: 6px;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 505px;
+  height: 162px;
+}
+.by-sania-abril-fatface-regular {
+  margin: -236px 0 0 0;
+  margin: -10px 0 0 0;
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "AbrilFatface-Regular", serif;
+  font-size: 88px;
+  line-height: 100px;
+  font-weight: 400;
+  position: absolute;
+  top: 80px; /* Adjust based on your design */
+  left: 0;
+  width: 950px;
+}
+.number-2-background {
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+      width: 1450px; /* Set width */
+      height: 1088px; /* Set height */
+      position: absolute; /* Absolute positioning */
+      left: 0px; /* X position */
+      top: 953px; /* Y position */
+      left: 0px; /* X position */
+  
+  background-size: 200px 200px; /* Adjust tile size */
+    }
+
+    .bg-content * {
+      box-sizing: border-box;
+    }
+
+.bg-content {
+  height: 200px;
+  position: relative;
+  overflow: visible;
+}
+
+
+.header {
+  width: 1269px;
+  height: 25px;
+  position: absolute;
+  left: 746px;
+  top: 60px;
+  overflow: hidden;
+}
+.blog {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 984px;
+  top: 2px;
+}
+.about-us {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 869px;
+  top: 2px;
+}
+.equipment {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: 739px;
+  top: 2px;
+}
+.account {
+  position: absolute;
+  inset: 0;
+}
+.account2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  position: absolute;
+  left: 1694px;
+  top: 3px;
+}
+.icons-general-cart {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 1662px;
+  top: 1px;
+  overflow: visible;
+}
+.logo {
+  width: 108px;
+  height: 24px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+.content2 {
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1722px;
+  height: 3245px;
+  position: absolute;
+  left: 165px;
+  top: 343px;
+  overflow: hidden;
+}
+.content3 {
+  flex-shrink: 0;
+  width: 1142px;
+  height: 596px;
+  position: relative;
+}
+.number-1 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 240px;
+  line-height: 240px;
+  font-weight: 700;
+  opacity: 0.5;
+  position: absolute;
+  right: 86.65%;
+  left: -3.06%;
+  width: 16.42%;
+  bottom: 66.67%;
+  top: 0%;
+  height: 33.33%;
+}
+.content4 {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 55.34%;
+  height: 76.34%;
+  position: absolute;
+  right: 22.33%;
+  left: 22.33%;
+  bottom: 0%;
+  top: 23.66%;
+  overflow: hidden;
+}
+.tagline {
+  flex-shrink: 0;
+  width: 290px;
+  height: 24px;
+  position: static;
+}
+.travis-scott {
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 18px;
+  letter-spacing: 6px;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  left: 96px;
+  top: 0px;
+}
+.line {
+  background: var(--accent, #e1a140);
+  width: 72px;
+  height: 2px;
+  position: absolute;
+  left: 0px;
+  top: 10px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.jacques-bermon-webster-ii {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaM Display", sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  position: relative;
+  width: 555px;
+}
+.travis-scott-a-rap-icon-AdLamDisplay-Regular {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLam Display", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  position: relative;
+  width: 632px;
+}
+.more {
+  flex-shrink: 0;
+  width: 127px;
+  height: 22px;
+  position: absolute;
+  top: 5px;
+  font-family: "ADLaM Display", sans-serif;
+}
+.equipment2 {
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 433px;
+}
+.content5
+.content5 *{
+  box-sizing:border-box;
+}
+.content5{
+  flex-shrink: 0;
+  height: 862px;
+  position: relative;
+}
+.number-12{
+  color: #ffffff;
+  text-align: left;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 220px;
+  line-height: 240px;
+  font-weight: 700;
+  opacity: 0.3;
+  position: relative;
+  left: -0.5%;
+  width: 19.14%;
+  top:598px;
+  height: 25.06%;
+  right:900px;
+}
+.content6{
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 50.4%;
+  height: 69.95%;
+  position: absolute;
+  right: 24.8%;
+  left: 13.8%;
+  bottom: 3.19%;
+  top: 32.85%;
+  overflow: hidden;
+}
+.tagline2{
+  flex-shrink: 0;
+  width: 535px;
+  height: 24px;
+  position: static;
+}
+.travis-scott-famous{
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 18px;
+  letter-spacing: 6px;
+  font-weight: 900;
+  text-transform: uppercase;
+  position: absolute;
+  left: 96px;
+  top: 0px;
+}
+.line2{
+  background: var(--accent, #e1a140);
+  width: 70px;
+  height: 2px;
+  position: absolute;
+  left:18px;
+  top: 10px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.one-of-travis-AdLamDisplay-Regular {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLam Display", sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  position: relative;
+  width: 550px;
+  left:18px;
+  top:15px;
+
+}
+.we-dont-like-to-do-too-much-AdLamDisplay-Regular{
+  color: #ffffff;
+  text-align: left;
+  font-family:"AdLam Display", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  position: relative;
+  width: 632px;
+  top: 51px;
+  left:0;
+  
+}
+.more3 {
+  flex-shrink: 0;
+  width: 127px;
+  height: 22px;
+  position: absolute;
+  left: 0px; 
+  top: 80px;
+}
+.equipment3 {
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 581px;
+}
+.content7 {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 80.4%;
+  height: 65.05%;
+  position: absolute;
+  right: 24.8%;
+  left: 24.8%;
+  bottom: 5.65%;
+  top: 29.3%;
+  overflow: hidden;
+}
+.tagline2 {
+  flex-shrink: 0;
+  width: 535px;
+  height: 24px;
+  position: static;
+}
+.where-you-go-is-the-key {
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 18px;
+  letter-spacing: 6px;
+  font-weight: 700;
+  text-transform: uppercase;
+  position: absolute;
+  left: 96px;
+  top:0px;
+}
+.understand-your-map-timing {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaMDisplay-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  position: relative;
+  width: 555px;
+}
+.to-start-print-out-the-hiking-guide-and-map-if-it-s-raining-throw-them-in-a-zip-lock-bag-read-over-the-guide-study-the-map-and-have-a-good-idea-of-what-to-expect-i-like-to-know-what-my-next-landmark-is-as-i-hike-for-example-i-ll-read-the-guide-and-know-that-say-in-a-mile-i-make-a-right-turn-at-the-junction {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: relative;
+  width: 632px;
+}
+.equipment3 {
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: absolute;
+  left: 0px;
+  top: 581px;
+}
+.icon-navigation-arrow-downward-24-px2 {
+  width: 16px;
+  height: 24px;
+  position: absolute;
+  left: 103px;
+  top: 600px;
+  overflow: visible;
+}
+.footer {
+  position: absolute;
+  inset: 0;
+  
+}
+.logo2 {
+  width: 0px;
+  height: 0px;
+  position: static;
+}
+/* .need-a-website-i-can-design-it-for-you-contact-me-for-web-design-services {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaMDisplay-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 285px;
+  top: 3676px;
+  width: 288.91px;
+} */
+ .need-a-website-i-can-design-it-for-you-contact-me-for-web-design-services-AdLam-Display-Regular{
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaM Display", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 285px;
+  top: 3676px;
+  width: 288.91px;
+ }
+.frame-2 {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 405px;
+  top: 3677px;
+  overflow: hidden;
+}
+.links {
+  width: 240px;
+  height: 214px;
+  position: static;
+}
+/* .important-links {
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1139px;
+  top: 3614px;
+  width: 240px;
+} */
+.important-links-AbrilFatface-Regular{
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "AbrilFatface-Regular", serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1139px;
+  top: 3614px;
+  width: 240px;
+}
+/* .about-me {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaMDisplay-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1139px;
+  top: 3664px;
+  width: 221px;
+} */
+.about-me-AdLam-Display-Regular a{
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaM Display", serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1139px;
+  top: 3664px;
+  width: 221px;
+  text-decoration: none;
+}
+
+.about-me-AdLam-Display-Regular a:hover {
+color: white;
+
+}
+/* .contact-me {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaMDisplay-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1139px;
+  top: 3708px;
+  width: 118px;
+} */
+ .contact-me-AdLAm-Display-Regular a{
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaM Display", serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1139px;
+  top: 3708px;
+  width: 118px;
+  text-decoration: none;
+ }
+ .contact-me-AdLAm-Display-Regular a:hover{
+  color: #f0f0f0;
+ }
+/* .linkedin-AdLam-Display-Regular{
+  text-align: left;
+  font-family: "AdLAm Display", serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1139px;
+  top: 3752px;
+  width: 89.63px;
+  
+} */
+.linkedin-AdLam-Display-Regular a {
+  text-align: left;
+  font-family: "AdLAm Display", serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1139px;
+  top: 3752px;
+  width: 89.63px;
+  text-decoration: none; /* Removes underline */
+  color: white; /* Changes text color to white */
+}
+
+.linkedin-AdLam-Display-Regular a:hover {
+  color: #f0f0f0; /* Optional hover effect */
+}
+/* .privacy-policy {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaMDisplay-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1139px;
+  top: 3796px;
+  width: 132px;
+} */
+ .privacy-policy-AdLam-Display-Regular a{
+
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaM Display", serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1139px;
+  top: 3796px;
+  width: 132px;
+  text-decoration: none;
+
+ }
+ .privacy-policy-AdLam-Display-Regular a:hover{
+  color:#f0f0f0;
+ }
+
+.links2 {
+  width: 199px;
+  height: 183px;
+  position: static;
+}
+.stay-connected {
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1524px;
+  top: 3621px;
+  width: 199px;
+}
+.instagram {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaMDisplay-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1526px;
+  top: 3680px;
+  width: 99px;
+}
+.email {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaMDisplay-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1524px;
+  top: 3724px;
+  width: 63px;
+}
+.linkedin2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaMDisplay-Regular", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 1524px;
+  top: 3772px;
+  width: 83px;
+}
+/* .let-s-build {
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "AbrilFatface-Regular", sans-serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 298px;
+  top: 3630px;
+  width: 147px;
+} */
+ .let-s-build-AbrilFatface-Regular{
+  color: var(--accent, #e1a140);
+  text-align: left;
+  font-family: "AbrilFatface-Regular", serif;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 400;
+  position: absolute;
+  left: 298px;
+  top: 3630px;
+  width: 147px;
+ }
+.number-2-travis {
+  width: 708px; /* Set width */
+  height: 707px; /* Set height */
+  position: absolute; /* Use absolute positioning */
+  top: 1334px; /* Set Y position */
+  object-fit: fill;
+  left: 750px;
+  right: 0;
+  
+}
+
+.number-2-travis * {
+  box-sizing: border-box;
+}
+
+.number-2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 240px;
+  line-height: 240px;
+  font-weight: 700;
+  opacity: 0.5;
+  position: absolute;
+  right: 77.86%;
+  left: 7.81%;
+  width: 14.32%;
+  bottom: 68.43%;
+  top: 25.04%;
+  height: 6.52%;
+}
+.content8 {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+ 
+  
+  position: absolute;
+  right: 44.58%;
+  
+  bottom: 52.91%;
+  top: 30.5%;
+  overflow: hidden;
+  
+    width: 808px; /* Set width */
+    height: 563px; /* Set height */
+    /* Allow precise positioning */
+    left: 197px; /* Set X position */
+    top: 1403px; /* Set Y position */
+    display: flex; /* Use flexbox */
+    
+    padding: 0; /* No horizontal padding */
+  }
+
+.a-pioneer-of-modern-hip-hop-Adlam-Display-Regular{
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLaM Display", sans-serif;
+  font-size: 64px;
+  font-weight: 900;
+  position: relative;
+  width: 555px;
+}
+.equipment4 {
+  
+    color: var(--accent, #e1a140);
+    text-align: left;
+    font-family: "Gilroy-Bold", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top:-28px;
+  
+  
+}
+.icon-navigation-arrow-downward-24-px3 {
+  width: 16px;
+  height: 24px;
+  position: absolute;
+  left: 103px;
+  top: 265px;
+  overflow: visible;
+}
+.travis-scott-s-music-blends-AdLam-Display_Regular {
+  color: #ffffff;
+  text-align: left;
+  font-family: "AdLam Display", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+  position: relative;
+  width: 632px;
+}
+
+.number-1-travis {
+  width: 510px; /* Set width */
+  height: 628px; /* Set height */
+  position: absolute;
+  top: 326px; /* Set Y position */
+  left: 0; /* Adjust left/right positioning if needed */
+  object-fit: cover;
+}
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.travis-scott-fam {
+  font-family: "Abril Fatface", serif; /* This one will work 100% */
+  font-size: 18px;
+  letter-spacing: 6px;
+  font-weight: 400; /* Abril Fatface only supports 400 */
+  text-transform: uppercase;
+  position: absolute;
+  left: 96px;
+  top: 0px;
+  color: var(--accent, #e1a140);
+  text-align: left;
+}
